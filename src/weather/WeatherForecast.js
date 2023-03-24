@@ -6,7 +6,7 @@ const WeatherForecast = () => {
   const [currentDate, setCurrentdate] = useState("");
   const [image, setImage] = useState("url('./bg.jpg')");
 
-  const API_KEY = "b841aa86084d40a3381b83071bb0fdfd";
+  const API_KEY = "Your_Key";
 
   const fetchData = async () => {
     const response = await fetch(
